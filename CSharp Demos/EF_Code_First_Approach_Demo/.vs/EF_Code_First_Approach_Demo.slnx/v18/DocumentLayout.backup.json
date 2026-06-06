@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Migrations\\20260606100800_Mobilenumber renamed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260606100800_Mobilenumber renamed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\data\\traininginstitutedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:data\\traininginstitutedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\migrations\\20260606093659_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:migrations\\20260606093659_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\ef_code_first_approach_demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:ef_code_first_approach_demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|c:\\personal\\hexa may 26 dotnet\\csharp demos\\ef_code_first_approach_demo\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2344D1F-C9F5-4527-9B33-6834127EE2F9}|EF_Code_First_Approach_Demo.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260606100800_Mobilenumber renamed.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Migrations\\20260606100800_Mobilenumber renamed.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260606100800_Mobilenumber renamed.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Migrations\\20260606100800_Mobilenumber renamed.cs",
+              "RelativeToolTip": "Migrations\\20260606100800_Mobilenumber renamed.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T10:08:00.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:54:49.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:44:17.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IStudentRepository.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:43:32.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260606093659_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Migrations\\20260606093659_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260606093659_InitialCreate.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Migrations\\20260606093659_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260606093659_InitialCreate.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwE8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:37:00.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwCMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:06:28.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrainingInstituteDbContext.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Data\\TrainingInstituteDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TrainingInstituteDbContext.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Data\\TrainingInstituteDbContext.cs",
+              "RelativeToolTip": "Data\\TrainingInstituteDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:24:46.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EF_Code_First_Approach_Demo",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\EF_Code_First_Approach_Demo.csproj",
+              "RelativeDocumentMoniker": "EF_Code_First_Approach_Demo.csproj",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\EF_Code_First_Approach_Demo.csproj",
+              "RelativeToolTip": "EF_Code_First_Approach_Demo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-06T09:10:20.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:06:59.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:14:07.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\CSharp Demos\\EF_Code_First_Approach_Demo\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:13:55.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
