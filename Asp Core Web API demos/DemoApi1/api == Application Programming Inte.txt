@@ -1,0 +1,12 @@
+api ==> Application Programming Interfce
+
+REST=>Representional State Transfer
+
+RestFul service=> can be access through HTTP Protocol.
+
+Services will return result as Any type of data such as Json,XML,Text,String,Object
+
+It can also HttpStatuscode as result .Based on the http status code we can easily  communicate to endpoint
+
+
+Endpoint => ASp.Net Core web aPI it is method that method can be accessible in the browser
