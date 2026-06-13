@@ -8,14 +8,17 @@ namespace Api_Pagination_Sorting_Demo.Repository.Implementations
     public class AppointmentRepository: IAppointmentRepository
     {
         private readonly HospitalAppointmentDbContext _context;
-
-        public AppointmentRepository(HospitalAppointmentDbContext context)
+        private readonly ILogger<AppointmentRepository> _logger;
+        public AppointmentRepository(HospitalAppointmentDbContext context, ILogger<AppointmentRepository> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         public IQueryable<Appointment> GetAllAppointmentsQueryable()
         {
+            _logger.LogInformation(
+              "Preparing appointment query with Doctor and Patient includes.");
             return _context.Appointments
                 .Include(a => a.Doctor)
                 .Include(a => a.Patient)

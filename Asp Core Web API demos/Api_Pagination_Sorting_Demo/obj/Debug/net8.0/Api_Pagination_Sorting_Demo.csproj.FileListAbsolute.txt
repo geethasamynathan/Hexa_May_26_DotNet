@@ -1,3 +1,4 @@
+C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\log4net.config
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\appsettings.Development.json
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\appsettings.json
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Api_Pagination_Sorting_Demo.exe
@@ -8,6 +9,7 @@ C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API dem
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Azure.Core.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Azure.Identity.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Humanizer.dll
+C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\log4net.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -25,6 +27,7 @@ C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API dem
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll

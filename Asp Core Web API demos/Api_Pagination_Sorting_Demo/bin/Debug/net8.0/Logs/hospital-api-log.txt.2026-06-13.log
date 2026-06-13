@@ -1,0 +1,93 @@
+2026-06-13 10:58:10,578 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7014
+2026-06-13 10:58:10,585 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5162
+2026-06-13 10:58:10,587 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-13 10:58:10,587 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-13 10:58:10,587 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo
+2026-06-13 10:58:14,963 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /swagger/index.html TraceId: 0HNM91I7FB3LV:00000001
+2026-06-13 10:58:15,288 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /swagger/index.html TraceId: 200 Duration: 326ms
+2026-06-13 10:58:15,955 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /swagger/v1/swagger.json TraceId: 0HNM91I7FB3LV:00000007
+2026-06-13 10:58:16,091 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /swagger/v1/swagger.json TraceId: 200 Duration: 135ms
+2026-06-13 10:58:32,436 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /api/Appointments TraceId: 0HNM91I7FB3LV:00000009
+2026-06-13 10:58:32,841 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Controllers.AppointmentsController - GetAppointments API called with PageNumber: 2, PageSize: 10, DoctorId: , PatientId: , Status: 
+2026-06-13 10:58:32,860 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - AppointmentService started Pagination operation
+2026-06-13 10:58:32,862 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Repository.Implementations.AppointmentRepository - Preparing appointment query with Doctor and Patient includes.
+2026-06-13 10:58:34,517 [.NET TP Worker] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (119ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Appointments] AS [a]
+2026-06-13 10:58:34,551 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - Total appointments before pagination: 21
+2026-06-13 10:58:34,852 [.NET TP Worker] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (167ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[AppointmentId], [t].[AppointmentDate], [t].[AppointmentStatus], [t].[AppointmentTime], [t].[CreatedDate], [t].[DoctorId], [t].[PatientId], [t].[Symptoms], [d].[DoctorId], [d].[ConsultationFee], [d].[DoctorName], [d].[IsAvailable], [d].[PhoneNumber], [d].[Specialization], [p].[PatientId], [p].[Age], [p].[City], [p].[Email], [p].[Gender], [p].[PatientName], [p].[PhoneNumber]
+FROM (
+    SELECT [a].[AppointmentId], [a].[AppointmentDate], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[CreatedDate], [a].[DoctorId], [a].[PatientId], [a].[Symptoms]
+    FROM [Appointments] AS [a]
+    ORDER BY [a].[AppointmentDate]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+INNER JOIN [Doctors] AS [d] ON [t].[DoctorId] = [d].[DoctorId]
+INNER JOIN [Patients] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentDate]
+2026-06-13 10:58:34,952 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - AppointmentService completed pagination. Records returned: 10
+2026-06-13 10:58:34,955 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Controllers.AppointmentsController - GetAppointments API successful. Returned 10 records.
+2026-06-13 10:58:35,002 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /api/Appointments TraceId: 200 Duration: 2565ms
+2026-06-13 11:02:57,017 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7014
+2026-06-13 11:02:57,024 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5162
+2026-06-13 11:02:57,027 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-13 11:02:57,027 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-13 11:02:57,028 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo
+2026-06-13 11:02:57,868 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /swagger/index.html TraceId: 0HNM91KSPHQI0:00000001
+2026-06-13 11:02:57,994 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /swagger/index.html TraceId: 200 Duration: 126ms
+2026-06-13 11:02:58,164 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /swagger/v1/swagger.json TraceId: 0HNM91KSPHQI0:00000007
+2026-06-13 11:02:58,286 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /swagger/v1/swagger.json TraceId: 200 Duration: 122ms
+2026-06-13 11:03:08,057 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /api/Appointments TraceId: 0HNM91KSPHQI0:00000009
+2026-06-13 11:03:08,415 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Controllers.AppointmentsController - GetAppointments API called with PageNumber: 1, PageSize: 10, DoctorId: , PatientId: , Status: 
+2026-06-13 11:03:08,433 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - AppointmentService started Pagination operation
+2026-06-13 11:03:08,434 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Repository.Implementations.AppointmentRepository - Preparing appointment query with Doctor and Patient includes.
+2026-06-13 11:03:09,925 [.NET TP Worker] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Appointments] AS [a]
+2026-06-13 11:03:09,950 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - Total appointments before pagination: 21
+2026-06-13 11:03:10,167 [.NET TP Worker] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (53ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[AppointmentId], [t].[AppointmentDate], [t].[AppointmentStatus], [t].[AppointmentTime], [t].[CreatedDate], [t].[DoctorId], [t].[PatientId], [t].[Symptoms], [d].[DoctorId], [d].[ConsultationFee], [d].[DoctorName], [d].[IsAvailable], [d].[PhoneNumber], [d].[Specialization], [p].[PatientId], [p].[Age], [p].[City], [p].[Email], [p].[Gender], [p].[PatientName], [p].[PhoneNumber]
+FROM (
+    SELECT [a].[AppointmentId], [a].[AppointmentDate], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[CreatedDate], [a].[DoctorId], [a].[PatientId], [a].[Symptoms]
+    FROM [Appointments] AS [a]
+    ORDER BY [a].[AppointmentDate]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Doctors] AS [d] ON [t].[DoctorId] = [d].[DoctorId]
+INNER JOIN [Patients] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentDate]
+2026-06-13 11:03:10,297 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - AppointmentService completed pagination. Records returned: 10
+2026-06-13 11:03:10,299 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Controllers.AppointmentsController - GetAppointments API successful. Returned 10 records.
+2026-06-13 11:03:10,353 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /api/Appointments TraceId: 200 Duration: 2295ms
+2026-06-13 11:07:46,008 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7014
+2026-06-13 11:07:46,014 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5162
+2026-06-13 11:07:46,016 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2026-06-13 11:07:46,017 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2026-06-13 11:07:46,017 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo
+2026-06-13 11:07:51,467 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /swagger/index.html TraceId: 0HNM91NIVD6MS:00000001
+2026-06-13 11:07:51,560 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /swagger/index.html TraceId: 200 Duration: 92ms
+2026-06-13 11:07:51,706 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /swagger/v1/swagger.json TraceId: 0HNM91NIVD6MS:00000007
+2026-06-13 11:07:51,828 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /swagger/v1/swagger.json TraceId: 200 Duration: 122ms
+2026-06-13 11:08:05,671 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - Handling request started: GET /api/Appointments TraceId: 0HNM91NIVD6MS:00000009
+2026-06-13 11:08:06,028 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Controllers.AppointmentsController - GetAppointments API called with PageNumber: 1, PageSize: 10, DoctorId: , PatientId: , Status: 
+2026-06-13 11:08:06,044 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - AppointmentService started Pagination operation
+2026-06-13 11:08:06,046 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Repository.Implementations.AppointmentRepository - Preparing appointment query with Doctor and Patient includes.
+2026-06-13 11:08:07,501 [.NET TP Worker] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Appointments] AS [a]
+2026-06-13 11:08:07,529 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - Total appointments before pagination: 21
+2026-06-13 11:08:07,715 [.NET TP Worker] INFO  Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (63ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[AppointmentId], [t].[AppointmentDate], [t].[AppointmentStatus], [t].[AppointmentTime], [t].[CreatedDate], [t].[DoctorId], [t].[PatientId], [t].[Symptoms], [d].[DoctorId], [d].[ConsultationFee], [d].[DoctorName], [d].[IsAvailable], [d].[PhoneNumber], [d].[Specialization], [p].[PatientId], [p].[Age], [p].[City], [p].[Email], [p].[Gender], [p].[PatientName], [p].[PhoneNumber]
+FROM (
+    SELECT [a].[AppointmentId], [a].[AppointmentDate], [a].[AppointmentStatus], [a].[AppointmentTime], [a].[CreatedDate], [a].[DoctorId], [a].[PatientId], [a].[Symptoms]
+    FROM [Appointments] AS [a]
+    ORDER BY [a].[AppointmentDate]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Doctors] AS [d] ON [t].[DoctorId] = [d].[DoctorId]
+INNER JOIN [Patients] AS [p] ON [t].[PatientId] = [p].[PatientId]
+ORDER BY [t].[AppointmentDate]
+2026-06-13 11:08:07,819 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Services.Implementations.AppointmentService - AppointmentService completed pagination. Records returned: 10
+2026-06-13 11:08:07,822 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Controllers.AppointmentsController - GetAppointments API successful. Returned 10 records.
+2026-06-13 11:08:07,865 [.NET TP Worker] INFO  Api_Pagination_Sorting_Demo.Middlewares.RequestResponseLoggingMiddleware - HTTP Response completed : GET /api/Appointments TraceId: 200 Duration: 2193ms

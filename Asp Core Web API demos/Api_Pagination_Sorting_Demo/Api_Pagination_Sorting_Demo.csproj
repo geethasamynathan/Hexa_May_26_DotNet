@@ -16,7 +16,20 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Personal\Hexa May 26 DotNet\Git Notes\Hexa_May_26_DotNet\Asp Core Web API demos\Api_Pagination_Sorting_Demo\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logs\" />
   </ItemGroup>
 
 </Project>

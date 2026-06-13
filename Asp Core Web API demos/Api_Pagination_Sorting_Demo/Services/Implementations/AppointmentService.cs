@@ -9,6 +9,7 @@ namespace Api_Pagination_Sorting_Demo.Services.Implementations
     public class AppointmentService: IAppointmentService
     {
         private readonly IAppointmentRepository _appointmentRepository;
+        private readonly ILogger<AppointmentService> _logger;
         private readonly string[] _allowedSortFields = 
             {"appointmentId",
             "appointmentdate", 
@@ -18,17 +19,19 @@ namespace Api_Pagination_Sorting_Demo.Services.Implementations
             "patientname",
             "createdDate" };
 
-        public AppointmentService(IAppointmentRepository appointmentRepository)
+        public AppointmentService(IAppointmentRepository appointmentRepository, ILogger<AppointmentService> logger)
         {
             _appointmentRepository = appointmentRepository;
-            
+            _logger = logger;
         }
 
         public async Task<(bool Success, string Message, PagedResponseDto<AppointmentResponseDto>?
             Data)> GetPagedAppointmentsAsync(AppointmentFilterRequestDto filter)
         {
+            _logger.LogInformation("AppointmentService started Pagination operation");
             if(filter.PageNumber<= 0 || filter.PageSize <= 0)
             {
+                _logger.LogWarning("Invalid pagination parameters: PageNumber={PageNumber}, PageSize={PageSize}", filter.PageNumber, filter.PageSize);
                 return (false, "PageNumber and PageSize must be greater than zero.", null);
             }
             if(filter.PageSize>= 100)
@@ -56,10 +59,17 @@ namespace Api_Pagination_Sorting_Demo.Services.Implementations
             query = ApplySorting(query, filter.SortBy!, filter.SortDirection!);
             int totalRecords = await query.CountAsync();
             int totalPages = (int)Math.Ceiling(totalRecords / (double)filter.PageSize);
+            _logger.LogInformation(
+                "Total appointments before pagination: {TotalRecords}",
+                totalRecords);
+
             List<Appointment> appointments = await query
                 .Skip((filter.PageNumber - 1) * filter.PageSize)
                 .Take(filter.PageSize)
                 .ToListAsync();
+            _logger.LogInformation(
+                $"AppointmentService completed pagination. Records returned: {appointments.Count}",
+                appointments.Count);
 
             List<AppointmentResponseDto> appointmentDtos = appointments
                 .Select(a => new AppointmentResponseDto
