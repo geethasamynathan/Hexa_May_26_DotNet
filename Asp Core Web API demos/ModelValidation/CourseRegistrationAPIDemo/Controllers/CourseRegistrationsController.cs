@@ -11,59 +11,138 @@ namespace CourseRegistrationAPIDemo.Controllers
     public class CourseRegistrationsController : ControllerBase
     {
         private readonly ICourseRegistrationService _courseRegistrationService;
-        public CourseRegistrationsController(ICourseRegistrationService courseRegistrationService)
+
+        public CourseRegistrationsController(
+            ICourseRegistrationService courseRegistrationService)
         {
             _courseRegistrationService = courseRegistrationService;
         }
 
-
-        // GET: api/<CourseRegistrationsController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult GetAllRegistrations()
         {
-            return new string[] { "value1", "value2" };
+            var registrations = _courseRegistrationService.GetAllRegistrations();
+
+            return Ok(new
+            {
+                StatusCode = StatusCodes.Status200OK,
+                Message = "Course registrations retrieved successfully",
+                Data = registrations
+            });
         }
 
-        // GET api/<CourseRegistrationsController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult GetRegistrationById(int id)
         {
-            return "value";
-        }
-
-        // POST api/<CourseRegistrationsController>
-        [HttpPost]
-        public IActionResult Post([FromBody] CourseRegistrationCreateDto courseRegistration)
-        {
-          var result= _courseRegistrationService.RegisterStudent(courseRegistration);
-            if (result == null)
+            if (id <= 0)
             {
                 return BadRequest(new
                 {
-                    Message = "Registration Failed"
-                }); 
-            }
-
-               return Created("",new
-                { 
-                    Message = "Registration Success",
-                    Data=result
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    Message = "Invalid course registration id"
                 });
             }
-           
 
-        
+            var registration = _courseRegistrationService.GetRegistrationById(id);
 
-        // PUT api/<CourseRegistrationsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
+            if (registration == null)
+            {
+                return NotFound(new
+                {
+                    StatusCode = StatusCodes.Status404NotFound,
+                    Message = "Course registration not found"
+                });
+            }
+
+            return Ok(new
+            {
+                StatusCode = StatusCodes.Status200OK,
+                Message = "Course registration retrieved successfully",
+                Data = registration
+            });
         }
 
-        // DELETE api/<CourseRegistrationsController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpPost]
+        public IActionResult CreateRegistration(
+            [FromBody] CourseRegistrationCreateDto courseRegistrationCreateDto)
         {
+            var createdRegistration = _courseRegistrationService
+                .RegisterStudent(courseRegistrationCreateDto);
+
+            return CreatedAtAction(
+                nameof(GetRegistrationById),
+                new { id = createdRegistration.CourseRegistrationId },
+                new
+                {
+                    StatusCode = StatusCodes.Status201Created,
+                    Message = "Course registration created successfully",
+                    Data = createdRegistration
+                });
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateRegistration(
+            int id,
+            [FromBody] CourseRegistrationUpdateDto courseRegistrationUpdateDto)
+        {
+            if (id <= 0)
+            {
+                return BadRequest(new
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    Message = "Invalid course registration id"
+                });
+            }
+
+            var updatedRegistration = _courseRegistrationService
+                .UpdateRegistration(id, courseRegistrationUpdateDto);
+
+            if (updatedRegistration == null)
+            {
+                return NotFound(new
+                {
+                    StatusCode = StatusCodes.Status404NotFound,
+                    Message = "Course registration not found"
+                });
+            }
+
+            return Ok(new
+            {
+                StatusCode = StatusCodes.Status200OK,
+                Message = "Course registration updated successfully",
+                Data = updatedRegistration
+            });
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteRegistration(int id)
+        {
+            if (id <= 0)
+            {
+                return BadRequest(new
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    Message = "Invalid course registration id"
+                });
+            }
+
+            bool isDeleted = _courseRegistrationService.DeleteRegistration(id);
+
+            if (!isDeleted)
+            {
+                return NotFound(new
+                {
+                    StatusCode = StatusCodes.Status404NotFound,
+                    Message = "Course registration not found"
+                });
+            }
+
+            return Ok(new
+            {
+                StatusCode = StatusCodes.Status200OK,
+                Message = "Course registration deleted successfully"
+            });
         }
     }
 }
+
