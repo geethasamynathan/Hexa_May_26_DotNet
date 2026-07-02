@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|c:\\personal\\hexa may 26 dotnet\\git notes\\hexa_may_26_dotnet\\asp core web api demos\\modelvalidation\\courseregistrationapidemo\\.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|solutionrelative:.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|c:\\personal\\hexa may 26 dotnet\\git notes\\hexa_may_26_dotnet\\asp core web api demos\\modelvalidation\\courseregistrationapidemo\\services\\courseregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|solutionrelative:services\\courseregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|c:\\personal\\hexa may 26 dotnet\\git notes\\hexa_may_26_dotnet\\asp core web api demos\\modelvalidation\\courseregistrationapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|c:\\personal\\hexa may 26 dotnet\\git notes\\hexa_may_26_dotnet\\asp core web api demos\\modelvalidation\\courseregistrationapidemo\\controllers\\courseregistrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|solutionrelative:controllers\\courseregistrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|c:\\personal\\hexa may 26 dotnet\\git notes\\hexa_may_26_dotnet\\asp core web api demos\\modelvalidation\\courseregistrationapidemo\\services\\courseregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|solutionrelative:services\\courseregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F7A578F-8E88-4801-A538-DA2D90888F5F}|CourseRegistrationAPIDemo.csproj|c:\\personal\\hexa may 26 dotnet\\git notes\\hexa_may_26_dotnet\\asp core web api demos\\modelvalidation\\courseregistrationapidemo\\services\\icourseregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,34 +57,36 @@
               "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "copilot-instructions.md",
-              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\.github\\copilot-instructions.md",
-              "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
-              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\.github\\copilot-instructions.md",
-              "RelativeToolTip": ".github\\copilot-instructions.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-07-02T08:57:09.27Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "ICourseRegistrationService.cs",
+              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Services\\ICourseRegistrationService.cs",
+              "RelativeDocumentMoniker": "Services\\ICourseRegistrationService.cs",
+              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Services\\ICourseRegistrationService.cs",
+              "RelativeToolTip": "Services\\ICourseRegistrationService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T04:29:15.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CourseRegistrationService.cs",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Services\\CourseRegistrationService.cs",
               "RelativeDocumentMoniker": "Services\\CourseRegistrationService.cs",
               "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Services\\CourseRegistrationService.cs",
               "RelativeToolTip": "Services\\CourseRegistrationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T04:30:08.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-10T04:30:08.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CourseRegistrationsController.cs",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Controllers\\CourseRegistrationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\CourseRegistrationsController.cs",
@@ -100,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -113,19 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICourseRegistrationService.cs",
-              "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Services\\ICourseRegistrationService.cs",
-              "RelativeDocumentMoniker": "Services\\ICourseRegistrationService.cs",
-              "ToolTip": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Services\\ICourseRegistrationService.cs",
-              "RelativeToolTip": "Services\\ICourseRegistrationService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T04:29:15.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "CourseRegistrationCreateDto.cs",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Dtos\\CourseRegistrationCreateDto.cs",
               "RelativeDocumentMoniker": "Dtos\\CourseRegistrationCreateDto.cs",
@@ -137,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CourseRegistrationCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Validations\\CourseRegistrationCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "Validations\\CourseRegistrationCreateDtoValidator.cs",
@@ -149,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CourseRegistrationAPIDemo.csproj",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\CourseRegistrationAPIDemo.csproj",
               "RelativeDocumentMoniker": "CourseRegistrationAPIDemo.csproj",
@@ -161,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "FutureDateAttribute.cs",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Validations\\FutureDateAttribute.cs",
               "RelativeDocumentMoniker": "Validations\\FutureDateAttribute.cs",
@@ -173,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "CourseRegistration.cs",
               "DocumentMoniker": "C:\\Personal\\Hexa May 26 DotNet\\Git Notes\\Hexa_May_26_DotNet\\Asp Core Web API demos\\ModelValidation\\CourseRegistrationAPIDemo\\Models\\CourseRegistration.cs",
               "RelativeDocumentMoniker": "Models\\CourseRegistration.cs",
@@ -182,10 +168,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-10T03:57:02.169Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
