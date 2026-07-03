@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "hBQUaqJitKAcujreOfaT99C7vC9UzBlVBsIiiMXCDrQ=",
-  "Source": "CourseRegistrationAPIDemo",
-  "BasePath": "_content/CourseRegistrationAPIDemo",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"q6Nn9zYe0Q2bT5qb8HNdo9f0vAhMlUiDrimKoaxmVQs=","Source":"CourseRegistrationAPIDemo","BasePath":"_content/CourseRegistrationAPIDemo","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseRegistrationAPIDemo", "CourseRegistrationAPIDemo.csproj", "{6F7A578F-8E88-4801-A538-DA2D90888F5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseRegistrationAPI.Tests", "..\CourseRegistrationAPI.Tests\CourseRegistrationAPI.Tests.csproj", "{46555F3A-D822-4FEF-97D5-50E023CC46F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6F7A578F-8E88-4801-A538-DA2D90888F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7A578F-8E88-4801-A538-DA2D90888F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7A578F-8E88-4801-A538-DA2D90888F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46555F3A-D822-4FEF-97D5-50E023CC46F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46555F3A-D822-4FEF-97D5-50E023CC46F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46555F3A-D822-4FEF-97D5-50E023CC46F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46555F3A-D822-4FEF-97D5-50E023CC46F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
