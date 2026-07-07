@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Departure Board</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Airport Departure Board</h1>
+
+    <div class="top-bar">
+
+        <div id="clock"></div>
+
+        <div class="buttons">
+            <button id="addBtn">Add Departure</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+    </div>
+
+    <div id="summary"></div>
+
+    <!-- Header -->
+    <div class="header row">
+        <div>Time</div>
+        <div>Flight</div>
+        <div>Destination</div>
+        <div>Gate</div>
+        <div>Status</div>
+    </div>
+
+    <!-- Empty container -->
+    <div class="board" id="board"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

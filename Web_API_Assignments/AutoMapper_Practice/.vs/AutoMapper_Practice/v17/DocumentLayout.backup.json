@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\repository\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:repository\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\repository\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:repository\\implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\repository\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:repository\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\repository\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:repository\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|c:\\users\\rathish\\source\\repos\\automapper_practice\\services\\interfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02528B5B-F256-4A80-AAD2-C9FE0C6FFE16}|AutoMapper_Practice.csproj|solutionrelative:services\\interfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvysAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:34:00.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Mappings\\MappingProfile.cs*",
+              "RelativeToolTip": "Mappings\\MappingProfile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:33:17.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Implementations\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementations\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Implementations\\EmployeeRepository.cs*",
+              "RelativeToolTip": "Repository\\Implementations\\EmployeeRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:32:20.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Implementations\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementations\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Implementations\\DepartmentRepository.cs*",
+              "RelativeToolTip": "Repository\\Implementations\\DepartmentRepository.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvycAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:31:53.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Interfaces\\IEmployeeRepository.cs*",
+              "RelativeToolTip": "Repository\\Interfaces\\IEmployeeRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:31:25.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Repository\\Interfaces\\IDepartmentRepository.cs*",
+              "RelativeToolTip": "Repository\\Interfaces\\IDepartmentRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:30:54.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Implementations\\EmployeeService.cs*",
+              "RelativeToolTip": "Services\\Implementations\\EmployeeService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:29:49.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Implementations\\DepartmentService.cs*",
+              "RelativeToolTip": "Services\\Implementations\\DepartmentService.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv1AAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:29:22.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Interfaces\\IEmployeeService.cs*",
+              "RelativeToolTip": "Services\\Interfaces\\IEmployeeService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:28:48.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Interfaces\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\AutoMapper_Practice\\Services\\Interfaces\\IDepartmentService.cs*",
+              "RelativeToolTip": "Services\\Interfaces\\IDepartmentService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T03:28:11.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

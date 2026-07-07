@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\migrations\\fleetmaintenancedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:migrations\\fleetmaintenancedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\migrations\\20260615060854_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:migrations\\20260615060854_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\fleetmaintenanceapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:fleetmaintenanceapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\services\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:services\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\services\\interfaces\\imaintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:services\\interfaces\\imaintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\services\\interfaces\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:services\\interfaces\\idriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\services\\implementations\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:services\\implementations\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\services\\implementations\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:services\\implementations\\maintenanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\services\\implementations\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:services\\implementations\\driverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\repositories\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:repositories\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\repositories\\interfaces\\imaintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:repositories\\interfaces\\imaintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\repositories\\interfaces\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:repositories\\interfaces\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\repositories\\implementations\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:repositories\\implementations\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\repositories\\implementations\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:repositories\\implementations\\maintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\repositories\\implementations\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:repositories\\implementations\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\data\\fleetmaintenancedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:data\\fleetmaintenancedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\vehicleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\vehicleresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\pagedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\pagedresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\maintenanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\maintenanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\maintenancefilterrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\maintenancefilterrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\maintenancecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\maintenancecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\driverresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\driverresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\dto\\drivercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:dto\\drivercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|c:\\users\\rathish\\source\\repos\\fleetmaintenanceapi\\controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AE8513-F536-4B78-AB73-17DFD15E4509}|FleetMaintenanceAPI.csproj|solutionrelative:controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FleetMaintenanceDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Migrations\\FleetMaintenanceDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\FleetMaintenanceDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Migrations\\FleetMaintenanceDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\FleetMaintenanceDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:14:57.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260615060854_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Migrations\\20260615060854_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260615060854_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Migrations\\20260615060854_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260615060854_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:14:55.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FleetMaintenanceAPI.http",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\FleetMaintenanceAPI.http",
+              "RelativeDocumentMoniker": "FleetMaintenanceAPI.http",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\FleetMaintenanceAPI.http",
+              "RelativeToolTip": "FleetMaintenanceAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-15T06:12:32.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T06:12:25.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:04:33.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Interfaces\\IVehicleService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IVehicleService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Interfaces\\IVehicleService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IVehicleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:04:14.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMaintenanceService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Interfaces\\IMaintenanceService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMaintenanceService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Interfaces\\IMaintenanceService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IMaintenanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:03:47.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDriverService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Interfaces\\IDriverService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDriverService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Interfaces\\IDriverService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDriverService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:03:23.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Implementations\\VehicleService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\VehicleService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Implementations\\VehicleService.cs",
+              "RelativeToolTip": "Services\\Implementations\\VehicleService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv1UAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:02:49.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MaintenanceService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Implementations\\MaintenanceService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\MaintenanceService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Implementations\\MaintenanceService.cs",
+              "RelativeToolTip": "Services\\Implementations\\MaintenanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:02:10.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DriverService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Implementations\\DriverService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\DriverService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Services\\Implementations\\DriverService.cs",
+              "RelativeToolTip": "Services\\Implementations\\DriverService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv1EAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:01:44.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Interfaces\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Interfaces\\IVehicleRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T06:00:18.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMaintenanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Interfaces\\IMaintenanceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IMaintenanceRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Interfaces\\IMaintenanceRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IMaintenanceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:59:49.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDriverRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Interfaces\\IDriverRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IDriverRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Interfaces\\IDriverRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IDriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:59:21.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Implementations\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Implementations\\VehicleRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\VehicleRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:58:46.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MaintenanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Implementations\\MaintenanceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\MaintenanceRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Implementations\\MaintenanceRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\MaintenanceRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:58:22.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DriverRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Implementations\\DriverRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\DriverRepository.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Repositories\\Implementations\\DriverRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\DriverRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:57:56.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Models\\Vehicle.cs",
+              "RelativeToolTip": "Models\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:55:33.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MaintenanceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Models\\MaintenanceRecord.cs",
+              "RelativeDocumentMoniker": "Models\\MaintenanceRecord.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Models\\MaintenanceRecord.cs",
+              "RelativeToolTip": "Models\\MaintenanceRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:55:08.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Models\\Driver.cs",
+              "RelativeToolTip": "Models\\Driver.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:54:39.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FleetMaintenanceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Data\\FleetMaintenanceDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\FleetMaintenanceDbContext.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Data\\FleetMaintenanceDbContext.cs",
+              "RelativeToolTip": "Data\\FleetMaintenanceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:51:50.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VehicleResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\VehicleResponseDto.cs",
+              "RelativeDocumentMoniker": "DTO\\VehicleResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\VehicleResponseDto.cs",
+              "RelativeToolTip": "DTO\\VehicleResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:51:22.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VehicleCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\VehicleCreateDto.cs",
+              "RelativeDocumentMoniker": "DTO\\VehicleCreateDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\VehicleCreateDto.cs",
+              "RelativeToolTip": "DTO\\VehicleCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:50:55.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PagedResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\PagedResponseDto.cs",
+              "RelativeDocumentMoniker": "DTO\\PagedResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\PagedResponseDto.cs",
+              "RelativeToolTip": "DTO\\PagedResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:50:31.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MaintenanceResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\MaintenanceResponseDto.cs",
+              "RelativeDocumentMoniker": "DTO\\MaintenanceResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\MaintenanceResponseDto.cs",
+              "RelativeToolTip": "DTO\\MaintenanceResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:49:58.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MaintenanceFilterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\MaintenanceFilterRequestDto.cs",
+              "RelativeDocumentMoniker": "DTO\\MaintenanceFilterRequestDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\MaintenanceFilterRequestDto.cs",
+              "RelativeToolTip": "DTO\\MaintenanceFilterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:49:29.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MaintenanceCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\MaintenanceCreateDto.cs",
+              "RelativeDocumentMoniker": "DTO\\MaintenanceCreateDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\MaintenanceCreateDto.cs",
+              "RelativeToolTip": "DTO\\MaintenanceCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:48:55.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DriverResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\DriverResponseDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DriverResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\DriverResponseDto.cs",
+              "RelativeToolTip": "DTO\\DriverResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:48:25.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DriverCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\DriverCreateDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DriverCreateDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\DTO\\DriverCreateDto.cs",
+              "RelativeToolTip": "DTO\\DriverCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:48:00.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "Controllers\\VehicleController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:47:09.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MaintenanceController.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Controllers\\MaintenanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MaintenanceController.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Controllers\\MaintenanceController.cs",
+              "RelativeToolTip": "Controllers\\MaintenanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:46:31.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DriverController.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Controllers\\DriverController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DriverController.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\FleetMaintenanceAPI\\Controllers\\DriverController.cs",
+              "RelativeToolTip": "Controllers\\DriverController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:45:36.463Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\Rathish\source\repos\ECommerceApp\bin\Debug\net8.0\ECommerceApp.exe
+C:\Users\Rathish\source\repos\ECommerceApp\bin\Debug\net8.0\ECommerceApp.deps.json
+C:\Users\Rathish\source\repos\ECommerceApp\bin\Debug\net8.0\ECommerceApp.runtimeconfig.json
+C:\Users\Rathish\source\repos\ECommerceApp\bin\Debug\net8.0\ECommerceApp.dll
+C:\Users\Rathish\source\repos\ECommerceApp\bin\Debug\net8.0\ECommerceApp.pdb
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ECommerceApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ECommerceApp.AssemblyInfoInputs.cache
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ECommerceApp.AssemblyInfo.cs
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ECommerceApp.csproj.CoreCompileInputs.cache
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ECommerceApp.dll
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\refint\ECommerceApp.dll
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ECommerceApp.pdb
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ECommerceApp.genruntimeconfig.cache
+C:\Users\Rathish\source\repos\ECommerceApp\obj\Debug\net8.0\ref\ECommerceApp.dll

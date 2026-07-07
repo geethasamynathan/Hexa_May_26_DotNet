@@ -1,0 +1,403 @@
+Build a Student Learning Portal using React Router.
+Scenario
+You are asked to build a simple Student Learning Portal for an online training institute.
+The portal will have public pages that anyone can view, such as Home, About, Courses, Contact, and Login.
+The portal will also have private pages that only logged-in students can access, such as Dashboard, Profile, My Courses, and Settings.
+The application should contain the following pages:
+ 
+Page	Access Type	Purpose
+Home	Public	Landing page of the portal
+About	Public	Information about the portal
+Courses	Public	Displays all available courses
+Course Details	Public	Displays selected course details.
+Contact	Public	Displays contact information.
+Login	Public	Allows the user to log in
+Dashboard	Protected	Main private student area
+Profile	Protected	Displays student profile details
+My Courses	Protected	Displays enrolled courses
+Settings	Protected	Displays student settings
+Not Found	Public	Displays 404 page for invalid URLs
+ 
+If a user tries to access a private page without logging in, the application should redirect the user to the login page.
+If a user enters a wrong URL, the application should show a proper 404 Page Not Found screen.
+Detailed Functional Requirements
+1. Home Page
+The Home page should display a welcome message for the student portal.
+The page should include:
+Portal title
+Short introduction about the portal
+Button to view available courses
+Button to go to the dashboard
+Expected Content
+Welcome to Student Learning Portal
+Learn React, Web API, and Full Stack Development from one place.
+Buttons:
+View Courses
+Go to Dashboard
+Routing Concept Covered
+Basic route
+Programmatic navigation using useNavigate
+2. About Page
+The About page should explain the purpose of the student learning portal.
+The page should include:
+Portal name
+Purpose of the portal
+Main features of the portal
+Expected Content
+This Student Learning Portal helps students view available courses, access their dashboard, manage their profile, and track enrolled courses.
+Routing Concept Covered
+Basic public route
+3. Courses Page
+The Courses page should display a list of available courses.
+Each course should be displayed as a card or section.
+Each course should contain:
+Course title
+Category
+Duration
+Trainer name
+View Details button
+Sample Course Details
+Course ID	Course Title	Category	Duration	Trainer
+1	React JS Fundamentals	Frontend	5 Days	Geetha
+2	ASP.NET Core Web API	Backend	6 Days	Kumar
+3	Full Stack Development	Full Stack	10 Days	Priya
+Expected Functionality
+When the user clicks View Details, the application should open the selected course details page.
+Example course detail routes:
+/courses/1
+/courses/2
+/courses/3
+Routing Concept Covered
+Basic route
+Dynamic route navigation
+Route parameter usage
+4. Course Details Page
+The Course Details page should display complete information about the selected course.
+The page should read the course ID from the URL and display the matching course details.
+Expected Details
+Course ID
+Course title
+Category
+Duration
+Trainer
+Description
+Expected Example Output
+Course Details
+Course ID: 1
+Title: React JS Fundamentals
+Category: Frontend
+Duration: 5 Days
+Trainer: Geetha
+Description: Learn components, props, state, events, and routing in React.
+Button:
+Back to Courses
+Validation Requirement
+If the course ID does not exist, display:
+Course not found
+Routing Concept Covered
+Dynamic route
+useParams
+useNavigate
+5. Contact Page
+The Contact page should display support details for the student portal.
+Expected Content
+Email: support@studentportal.com
+Phone: 9876543210
+Location: Chennai, India
+The page should include a Go Back button.
+Expected Functionality
+When the user clicks Go Back, the application should navigate to the previous page.
+Routing Concept Covered
+Basic route
+Backward navigation using useNavigate
+6. Login Page
+The Login page should allow the student to log in using dummy credentials.
+The page should contain:
+Username input
+Password input
+Login button
+Error message area
+Dummy Login Credentials
+Field	Value
+Username	student
+Password	student123
+Login Validation
+Field	Validation
+Username	Required
+Password	Required
+Error Messages
+The application should display proper error messages for:
+Empty username
+Empty password
+Invalid username or password
+Successful Login Requirement
+After successful login:
+Store login status in localStorage
+Redirect the user to the Dashboard page
+Show Dashboard and Logout options in the navbar
+Routing Concept Covered
+Form-based navigation
+useNavigate
+Conditional routing
+Authentication state handling
+7. Protected Route Requirement
+The application should have a reusable protected route mechanism.
+Protected routes should check whether the user is logged in or not.
+If User Is Logged In
+The user should be allowed to access protected pages.
+If User Is Not Logged In
+The user should be redirected to the Login page.
+Protected Pages
+The following pages should be protected:
+/dashboard
+/dashboard/profile
+/dashboard/my-courses
+/dashboard/settings
+Routing Concept Covered
+Protected route
+Conditional route access
+Redirection using Navigate
+8. Dashboard Page
+The Dashboard page should be accessible only after login.
+The page should display a welcome message and nested navigation links.
+Expected Content
+Welcome to Student Dashboard
+Nested dashboard links:
+Profile
+My Courses
+Settings
+Expected Nested Routes
+/dashboard/profile
+/dashboard/my-courses
+/dashboard/settings
+Routing Concept Covered
+Protected route
+Nested routing
+Parent route layout
+Child route rendering
+9. Profile Page
+The Profile page should display basic student information.
+Expected Content
+Name: Student User
+Email: student@example.com
+Course: React JS Fundamentals
+Status: Active
+Access Requirement
+This page should be accessible only after login.
+Routing Concept Covered
+Protected child route
+Nested route
+10. My Courses Page
+The My Courses page should display the courses enrolled by the logged-in student.
+Expected Content
+My Enrolled Courses
+React JS Fundamentals
+ASP.NET Core Web API
+Access Requirement
+This page should be accessible only after login.
+Routing Concept Covered
+Protected child route
+Nested route
+11. Settings Page
+The Settings page should display student preference sections.
+Expected Content
+Change Password
+Notification Preferences
+Theme Preferences
+No actual update functionality is required.
+Access Requirement
+This page should be accessible only after login.
+Routing Concept Covered
+Protected child route
+Nested route
+12. Navbar Requirement
+The application should have a common navigation bar.
+Public Navbar Links
+These links should be visible to all users:
+Home
+About
+Courses
+Contact
+Login
+Private Navbar Links
+These links should be visible only after login:
+Dashboard
+Logout
+Active Link Requirement
+The currently active page link should be highlighted.
+Logout Requirement
+When the user clicks Logout:
+Remove login status from localStorage
+Redirect the user to the Login page
+Hide private navbar links
+Routing Concept Covered
+Link
+NavLink
+Conditional rendering
+Programmatic navigation
+13. Wildcard Route Requirement
+The application should handle invalid URLs using a wildcard route.
+Invalid URL Examples
+/abc
+/student/test
+/random-page
+Expected Output
+404 - Page Not Found
+The page you are looking for does not exist.
+Button:
+Go to Home
+Expected Functionality
+When the user clicks Go to Home, the application should navigate to the Home page.
+Routing Concept Covered
+Wildcard route
+404 page handling
+Programmatic navigation using useNavigate
+Complete Route Table
+Route Path	Page	Access Type	Routing Concept
+/	Home	Public	Basic route
+/about	About	Public	Basic route
+/courses	Courses	Public	List page route
+/courses/:courseId	Course Details	Public	Dynamic route
+/contact	Contact	Public	Back navigation
+/login	Login	Public	Login route
+/dashboard	Dashboard	Protected	Protected parent route
+/dashboard/profile	Profile	Protected	Nested route
+/dashboard/my-courses	My Courses	Protected	Nested route
+/dashboard/settings	Settings	Protected	Nested route
+*	Not Found	Public	Wildcard route
+Mandatory Routing Concepts
+The assignment must demonstrate the following concepts:
+Basic Routing
+The application should allow users to navigate between multiple pages without refreshing the browser.
+Link
+Use regular navigation links to move between pages.
+NavLink
+Use active navigation links in the navbar so that the current page is visually highlighted.
+useNavigate
+Use programmatic navigation for button clicks and actions such as login, logout, back navigation, and 404 page navigation.
+useParams
+Use route parameters to display selected course details based on course ID.
+Navigate
+Use redirection when an unauthenticated user tries to access protected pages.
+Protected Route
+Restrict access to private pages based on login status.
+Nested Routing
+Use nested routes inside the Dashboard section.
+Wildcard Route
+Display a 404 page when no route matches the entered URL.
+User Flow Requirements
+Public User Flow
+A public user should be able to:
+Open the Home page
+View About page
+View Courses page
+View Course Details page
+View Contact page
+Open Login page
+If the public user tries to access the Dashboard or any dashboard child page, the application should redirect to Login.
+Login Flow
+The user should:
+Enter username and password
+See validation messages if fields are empty
+See an error message if credentials are wrong
+Be redirected to Dashboard if credentials are correct
+Logged-in User Flow
+A logged-in user should be able to:
+Access Dashboard
+Access Profile
+Access My Courses
+Access Settings
+See Dashboard and Logout options in the navbar
+Logout successfully
+After logout, the user should not be able to access protected pages.
+Invalid URL Flow
+If a user enters an invalid URL, the application should show the Not Found page.
+The Not Found page should provide an option to return to the Home page.
+UI Requirements
+The application should have a clean and simple user interface.
+The UI should include:
+Clean navbar
+Active link highlight
+Course card layout
+Centered login form
+Error message styling
+Dashboard nested menu
+Clear 404 page
+Button hover effects
+Expected Page Outputs
+Home Page
+Welcome to Student Learning Portal
+Learn React, Web API, and Full Stack Development from one place.
+Buttons:
+View Courses
+Go to Dashboard
+Courses Page
+Available Courses
+React JS Fundamentals
+Category: Frontend
+Duration: 5 Days
+Trainer: Geetha
+ASP.NET Core Web API
+Category: Backend
+Duration: 6 Days
+Trainer: Kumar
+Full Stack Development
+Category: Full Stack
+Duration: 10 Days
+Trainer: Priya
+Each course should have a View Details button.
+Course Details Page
+Course Details
+Course ID: 1
+Title: React JS Fundamentals
+Category: Frontend
+Duration: 5 Days
+Trainer: Geetha
+Description: Learn components, props, state, events, and routing in React.
+Button:
+Back to Courses
+Login Page
+Login
+Fields:
+Username
+Password
+Button:
+Login
+Dashboard Page
+Welcome to Student Dashboard
+Nested links:
+Profile
+My Courses
+Settings
+Profile Page
+Student Profile
+Name: Student User
+Email: student@example.com
+Course: React JS Fundamentals
+Status: Active
+My Courses Page
+My Enrolled Courses
+React JS Fundamentals
+ASP.NET Core Web API
+Settings Page
+Settings
+Change Password
+Notification Preferences
+Theme Preferences
+Not Found Page
+404 - Page Not Found
+The page you are looking for does not exist.
+Button:
+Go to Home
+Bonus Requirements
+Learners may optionally add:
+Show username in navbar after login
+Add logout confirmation
+Add default dashboard child page
+Redirect Dashboard to Profile by default
+Store logged-in user details in localStorage
+Add role-based routing
+Add Unauthorized page
+Add breadcrumb navigation
+Add better CSS hover effects
+Add responsive design for mobile screens

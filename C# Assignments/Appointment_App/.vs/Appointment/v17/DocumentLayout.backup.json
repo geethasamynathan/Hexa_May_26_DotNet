@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rathish\\source\\repos\\Appointment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|AppointmentApp.csproj|c:\\users\\rathish\\source\\repos\\appointment\\appointmentvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|AppointmentApp.csproj|solutionrelative:appointmentvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|Appointment.csproj|c:\\users\\rathish\\source\\repos\\appointment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|Appointment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|AppointmentApp.csproj|c:\\users\\rathish\\source\\repos\\appointment\\appointmentlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|AppointmentApp.csproj|solutionrelative:appointmentlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|AppointmentApp.csproj|c:\\users\\rathish\\source\\repos\\appointment\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6339C4-F71F-4718-B6B5-2D228B316038}|AppointmentApp.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\Appointment\\AppointmentValidation.cs",
+              "RelativeDocumentMoniker": "AppointmentValidation.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\Appointment\\AppointmentValidation.cs*",
+              "RelativeToolTip": "AppointmentValidation.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T16:41:04.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\Appointment\\AppointmentLogin.cs",
+              "RelativeDocumentMoniker": "AppointmentLogin.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\Appointment\\AppointmentLogin.cs*",
+              "RelativeToolTip": "AppointmentLogin.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T16:40:52.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\Appointment\\Appointment.cs",
+              "RelativeDocumentMoniker": "Appointment.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\Appointment\\Appointment.cs*",
+              "RelativeToolTip": "Appointment.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T16:40:40.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\Appointment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\Appointment\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwv7MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T16:39:55.914Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

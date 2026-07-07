@@ -1,0 +1,7 @@
+C:\Users\Rathish\source\repos\Solid_Principles_Assignments\obj\Debug\SmartCourierApp.csproj.AssemblyReference.cache
+C:\Users\Rathish\source\repos\Solid_Principles_Assignments\obj\Debug\SmartCourierApp.csproj.CoreCompileInputs.cache
+C:\Users\Rathish\source\repos\Solid_Principles_Assignments\bin\Debug\Solid_Principles_Assignments.exe.config
+C:\Users\Rathish\source\repos\Solid_Principles_Assignments\bin\Debug\Solid_Principles_Assignments.exe
+C:\Users\Rathish\source\repos\Solid_Principles_Assignments\bin\Debug\Solid_Principles_Assignments.pdb
+C:\Users\Rathish\source\repos\Solid_Principles_Assignments\obj\Debug\Solid_Principles_Assignments.exe
+C:\Users\Rathish\source\repos\Solid_Principles_Assignments\obj\Debug\Solid_Principles_Assignments.pdb

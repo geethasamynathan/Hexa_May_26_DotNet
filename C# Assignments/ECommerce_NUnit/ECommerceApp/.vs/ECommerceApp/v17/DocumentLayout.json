@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rathish\\source\\repos\\ECommerceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC413CFE-5531-411D-BD19-A42B5435CA96}|..\\ECommerceAppTest\\ECommerceAppTest\\ECommerceAppTest.csproj|c:\\users\\rathish\\source\\repos\\ecommerceapptest\\ecommerceapptest\\orderbillingservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC413CFE-5531-411D-BD19-A42B5435CA96}|..\\ECommerceAppTest\\ECommerceAppTest\\ECommerceAppTest.csproj|c:\\users\\rathish\\source\\repos\\ecommerceapptest\\ecommerceapptest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F734368-5D96-433F-B6C9-0FBA761D8D87}|ECommerceApp.csproj|c:\\users\\rathish\\source\\repos\\ecommerceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F734368-5D96-433F-B6C9-0FBA761D8D87}|ECommerceApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderBillingServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\ECommerceAppTest\\ECommerceAppTest\\OrderBillingServiceTest.cs",
+              "RelativeDocumentMoniker": "..\\ECommerceAppTest\\ECommerceAppTest\\OrderBillingServiceTest.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\ECommerceAppTest\\ECommerceAppTest\\OrderBillingServiceTest.cs",
+              "RelativeToolTip": "..\\ECommerceAppTest\\ECommerceAppTest\\OrderBillingServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T15:15:36.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\ECommerceAppTest\\ECommerceAppTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\ECommerceAppTest\\ECommerceAppTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\ECommerceAppTest\\ECommerceAppTest\\UnitTest1.cs",
+              "RelativeToolTip": "..\\ECommerceAppTest\\ECommerceAppTest\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T15:15:05.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\ECommerceApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\ECommerceApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T12:03:18.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

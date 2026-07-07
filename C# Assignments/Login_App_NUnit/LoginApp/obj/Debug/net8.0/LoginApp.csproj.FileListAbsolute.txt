@@ -1,0 +1,14 @@
+C:\Users\Rathish\source\repos\LoginApp\bin\Debug\net8.0\LoginApp.exe
+C:\Users\Rathish\source\repos\LoginApp\bin\Debug\net8.0\LoginApp.deps.json
+C:\Users\Rathish\source\repos\LoginApp\bin\Debug\net8.0\LoginApp.runtimeconfig.json
+C:\Users\Rathish\source\repos\LoginApp\bin\Debug\net8.0\LoginApp.dll
+C:\Users\Rathish\source\repos\LoginApp\bin\Debug\net8.0\LoginApp.pdb
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\LoginApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\LoginApp.AssemblyInfoInputs.cache
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\LoginApp.AssemblyInfo.cs
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\LoginApp.csproj.CoreCompileInputs.cache
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\LoginApp.dll
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\refint\LoginApp.dll
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\LoginApp.pdb
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\LoginApp.genruntimeconfig.cache
+C:\Users\Rathish\source\repos\LoginApp\obj\Debug\net8.0\ref\LoginApp.dll

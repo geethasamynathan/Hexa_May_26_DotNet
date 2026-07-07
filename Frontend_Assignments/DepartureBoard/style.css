@@ -1,0 +1,309 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto Mono', monospace;
+}
+
+body{
+
+    background:#090909;
+    color:#d7b36a;
+    padding:30px;
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+h1{
+
+    font-size:48px;
+    letter-spacing:8px;
+    color:#efe9dc;
+    margin-bottom:25px;
+}
+
+/* ===========================
+   TOP BAR
+=========================== */
+
+.top-bar{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+#clock{
+
+    font-size:58px;
+    font-weight:bold;
+    color:#f6b53b;
+    letter-spacing:4px;
+}
+
+/* ===========================
+   SUMMARY
+=========================== */
+
+#summary{
+
+    text-align:right;
+    color:#8f8f8f;
+    margin-bottom:18px;
+    font-size:15px;
+}
+
+/* ===========================
+   BOARD
+=========================== */
+
+.board{
+
+    border:1px solid #222;
+    border-radius:14px;
+    overflow:hidden;
+    background:#101010;
+    box-shadow:
+    0 0 10px rgba(255,170,0,.08),
+    inset 0 0 30px rgba(255,255,255,.02);
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header{
+
+    display:grid;
+    grid-template-columns:
+    120px
+    130px
+    1fr
+    100px
+    170px;
+
+    background:#111;
+    color:#7a705d;
+
+    font-size:13px;
+    letter-spacing:2px;
+
+    padding:16px 20px;
+
+    border-bottom:1px solid #222;
+}
+
+/* ===========================
+   ROWS
+=========================== */
+
+.row{
+
+    display:grid;
+
+    grid-template-columns:
+    120px
+    130px
+    1fr
+    100px
+    170px;
+
+    padding:18px 20px;
+
+    border-bottom:1px solid #171717;
+
+    align-items:center;
+
+    transition:.3s;
+}
+
+.row:hover{
+
+    background:#161616;
+}
+
+.row div{
+
+    color:#e4b155;
+    font-size:23px;
+    letter-spacing:1px;
+}
+
+.row:last-child{
+
+    border:none;
+}
+
+/* ===========================
+   STATUS CELL
+=========================== */
+
+.row div:last-child{
+
+    text-align:center;
+
+    padding:8px;
+
+    border-radius:4px;
+
+    font-size:17px;
+
+    font-weight:bold;
+}
+
+/* ===========================
+   STATUS COLORS
+=========================== */
+
+.on-time{
+
+    color:#35ff88 !important;
+
+    background:#112018;
+}
+
+.boarding{
+
+    color:#ffcb4d !important;
+
+    background:#2c2412;
+}
+
+.delayed{
+
+    color:#ff624b !important;
+
+    background:#2c1715;
+}
+
+.closed{
+
+    color:#ff4961 !important;
+
+    background:#301518;
+}
+
+.departed{
+
+    color:#9a9188 !important;
+
+    background:#252525;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.buttons{
+
+    margin-top:25px;
+}
+
+button{
+
+    padding:14px 24px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-right:12px;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+/* Add Button */
+
+#addBtn{
+
+    background:#f4b63f;
+
+    color:#111;
+}
+
+#addBtn:hover{
+
+    background:#ffca5b;
+}
+
+/* Reset Button */
+
+#resetBtn{
+
+    background:transparent;
+
+    color:#d7b36a;
+
+    border:1px solid #555;
+}
+
+#resetBtn:hover{
+
+    background:#222;
+}
+
+/* ===========================
+   LEGEND (Optional)
+=========================== */
+
+.legend{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-top:25px;
+
+    color:#888;
+
+    font-size:14px;
+}
+
+.legend span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+}
+
+.legend i{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:2px;
+
+    display:inline-block;
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#444;
+}

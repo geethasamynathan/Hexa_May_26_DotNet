@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace LibraryMembershipApp.Models
+{
+    public class Member
+    {
+        public int MemberId { get; set; }
+        public string MemberName { get; set; }
+        public string Email { get; set; }
+        public bool IsActive { get; set; }
+        public int BorrowedBookCount { get; set; }
+        public bool IsPremiumMember { get; set; } // Added for Assignment 19
+    }
+}

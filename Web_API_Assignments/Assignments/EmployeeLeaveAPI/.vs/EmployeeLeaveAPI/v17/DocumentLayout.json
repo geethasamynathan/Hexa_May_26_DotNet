@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\services\\leaverequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:services\\leaverequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\controllers\\leaverequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:controllers\\leaverequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\validations\\futuredateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:validations\\futuredateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\validations\\validleavetypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:validations\\validleavetypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\services\\ileaverequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:services\\ileaverequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\dtos\\leaverequestresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:dtos\\leaverequestresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\dtos\\leaverequestcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:dtos\\leaverequestcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|c:\\users\\rathish\\source\\repos\\employeeleaveapi\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1824C12A-9FEF-468F-B13D-FC65470CE991}|EmployeeLeaveAPI.csproj|solutionrelative:models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:29:10.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidLeaveTypeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Validations\\ValidLeaveTypeAttribute.cs",
+              "RelativeDocumentMoniker": "Validations\\ValidLeaveTypeAttribute.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Validations\\ValidLeaveTypeAttribute.cs",
+              "RelativeToolTip": "Validations\\ValidLeaveTypeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:28:50.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FutureDateAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Validations\\FutureDateAttribute.cs",
+              "RelativeDocumentMoniker": "Validations\\FutureDateAttribute.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Validations\\FutureDateAttribute.cs",
+              "RelativeToolTip": "Validations\\FutureDateAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:28:28.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeaveRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Services\\LeaveRequestService.cs",
+              "RelativeDocumentMoniker": "Services\\LeaveRequestService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Services\\LeaveRequestService.cs",
+              "RelativeToolTip": "Services\\LeaveRequestService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:27:42.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILeaveRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Services\\ILeaveRequestService.cs",
+              "RelativeDocumentMoniker": "Services\\ILeaveRequestService.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Services\\ILeaveRequestService.cs",
+              "RelativeToolTip": "Services\\ILeaveRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:27:17.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeaveRequestResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\DTOs\\LeaveRequestResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LeaveRequestResponseDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\DTOs\\LeaveRequestResponseDto.cs",
+              "RelativeToolTip": "DTOs\\LeaveRequestResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:26:40.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeaveRequestCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\DTOs\\LeaveRequestCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LeaveRequestCreateDto.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\DTOs\\LeaveRequestCreateDto.cs",
+              "RelativeToolTip": "DTOs\\LeaveRequestCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:26:03.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaveRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Controllers\\LeaveRequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeaveRequestsController.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Controllers\\LeaveRequestsController.cs",
+              "RelativeToolTip": "Controllers\\LeaveRequestsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:25:34.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeaveRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Models\\LeaveRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LeaveRequest.cs",
+              "ToolTip": "C:\\Users\\Rathish\\source\\repos\\EmployeeLeaveAPI\\Models\\LeaveRequest.cs",
+              "RelativeToolTip": "Models\\LeaveRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:24:28.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
