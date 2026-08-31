@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Airport Departures Board</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-left">
+                <p>● LIVE • SKY HARBOR INTL • TERMINAL 4</p>
+                <h1>DEPARTURES</h1>
+                
+            </div>
+            <div class="header-right">
+                <h2 id="clock">00:00:00</h2>
+                <p>LOCAL TIME • GMT - 7</p>
+                
+            </div>
+            
+            
+        </header>
+
+        <main>
+            <section class="board-section">
+                
+
+                <div class="board-header">
+
+                    <div>TIME</div>
+                    <div>FLIGHT</div>
+                    <div>DESTINATION</div>
+                    <div>GATE</div>
+                    <div>STATUS</div>
+
+                </div>
+
+                
+                <div id="board" class="board"></div>
+
+            </section>
+
+            <section class="controls">
+
+                <button id="addDepartureBtn">
+                    + Add Departure
+                </button>
+
+                <button id="resetBtn">
+                    Reset Board
+                </button>
+
+            </section>
+
+            <section class="summary">
+
+                <p id="summaryText">
+                    0 departures · 0 boarding · 0 delayed
+                </p>
+
+            </section>
+
+            <section class="legend">
+
+                <div class="legend-item">
+                    <span class="legend-color ontime"></span>
+                    <span>ON TIME</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color boarding"></span>
+                    <span>BOARDING</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color delayed"></span>
+                    <span>DELAYED</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color gateclosed"></span>
+                    <span>GATE CLOSED</span>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color departed"></span>
+                    <span>DEPARTED</span>
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
